@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+// import Sidebar from "~/components/Sidebar.vue";
+</script>
 
 <template>
-  <div>
-    <p class="text-red-400">Hello</p>
+  <div class="h-[100vh]">
+    <Sidebar />
   </div>
 </template>
