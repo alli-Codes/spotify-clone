@@ -4,6 +4,6 @@
 
 <template>
   <div class="h-[100vh]">
-    <Sidebar />
+    <!-- <Sidebar /> -->
   </div>
 </template>
