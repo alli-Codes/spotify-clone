@@ -1,9 +1,11 @@
 <template>
   <div
-    class="sidebar h-full max-w-[12rem] bg-black text-white p-7 flex flex-col justify-between"
+    class="sidebar h-full max-w-[15rem] bg-black text-white p-7 flex flex-col justify-between"
   >
-    <section class="main-links flex flex-col gap-y-4">
-      <h1>Spotify</h1>
+    <section class="main-links flex flex-col gap-y-8">
+      <div class="logo w-[8rem]">
+        <img src="/logo.png" alt="" />
+      </div>
       <article class="flex flex-col text-sm gap-y-2">
         <a href="#">
           <i></i>
@@ -18,7 +20,7 @@
           <p>Home</p>
         </a>
       </article>
-      <article class="flex flex-col gap-y-2">
+      <article class="flex flex-col gap-y-2 text-sm">
         <a href="#">
           <i></i>
           <p>Home</p>
