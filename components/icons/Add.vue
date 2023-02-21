@@ -1,0 +1,18 @@
+<template>
+  <div class="p-[.4rem] bg-white rounded-sm">
+    <svg
+      role="img"
+      height="12"
+      width="12"
+      aria-hidden="true"
+      viewBox="0 0 16 16"
+      data-encore-id="icon"
+      class="Svg-sc-ytk21e-0 uPxdw"
+    >
+      <path
+        d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z"
+        fill="gray"
+      ></path>
+    </svg>
+  </div>
+</template>
