@@ -1,10 +1,9 @@
 <script setup>
-// import Sidebar from "~/components/Sidebar.vue";
+import Category from "~~/components/category/Category.vue";
 </script>
 
 <template>
-  <div class="h-[300vh] bg-red-400 overflow-scroll">
-    <!-- <Sidebar /> -->
-    <p class="text-white">Hello people</p>
+  <div class="h-[300vh] px-10">
+    <Category />
   </div>
 </template>
