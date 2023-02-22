@@ -3,7 +3,7 @@
     <div class="w-[13rem] relative">
       <Sidebar />
     </div>
-    <div class="main w-full flex-1 relative">
+    <div class="main flex-1 relative overflow-x-hidden">
       <Header />
       <slot />
     </div>
