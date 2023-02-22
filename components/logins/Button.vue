@@ -1,3 +1,9 @@
+<script setup>
+defineProps({
+  buttonText: String,
+});
+</script>
+
 <template>
-  <button class="px-10 py-3 bg-white rounded-full">Log in</button>
+  <button class="rounded-full font-bold text-sm">{{ buttonText }}</button>
 </template>
