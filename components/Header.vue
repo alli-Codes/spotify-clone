@@ -6,7 +6,7 @@ import Button from "./logins/Button.vue";
 
 <template>
   <header
-    class="w-full px-8 py-2 bg-[#101010] flex justify-between items-center sticky top-0"
+    class="w-full px-8 py-2 bg-[#101010] flex justify-between items-center sticky top-0 z-40"
   >
     <div class="arrows text-white flex gap-x-8">
       <Icon icon="material-symbols:arrow-back-ios" />

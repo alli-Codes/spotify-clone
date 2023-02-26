@@ -10,7 +10,7 @@ import Globe from "~/components/icons/Globe.vue";
 
 <template>
   <div
-    class="sidebar h-full max-w-[15rem] bg-black text-white px-6 py-6 flex flex-col justify-between fixed"
+    class="sidebar w-full h-full bg-black text-white px-6 py-6 flex flex-col justify-between fixed"
   >
     <section class="main-links flex flex-col gap-y-10">
       <div class="logo w-[8rem]">
