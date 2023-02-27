@@ -3,7 +3,7 @@
     <div class="col-span-2 relative">
       <Sidebar />
     </div>
-    <div class="main col-span-10 relative">
+    <div class="bg-[#121212] main col-span-10 relative">
       <Header />
       <slot />
     </div>
