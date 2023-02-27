@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import Play from "../icons/Play.vue";
 let isHover = ref(false);
 const changeHoverState = (event) => {
   isHover.value = !isHover.value;
@@ -24,10 +25,10 @@ const changeHoverState = (event) => {
     >
       <div class="h-full flex items-center relative">
         <button
-          class="h-1 w-1 p-8 flex justify-center items-center rounded-full hidden"
+          class="h-1 w-1 p-6 flex justify-center items-center rounded-full hidden"
           :class="isHover ? 'play__button' : ''"
         >
-          Play
+          <Play />
         </button>
       </div>
     </div>
@@ -36,7 +37,7 @@ const changeHoverState = (event) => {
 
 <style scoped>
 .play__button {
-  background-color: green;
+  background-color: #1ed760;
   color: white;
   display: flex;
   position: absolute;
